@@ -3,7 +3,7 @@ import PageIndex from "../../../components/page-index";
 
 export default function Page() {
   const router = useRouter();
-  const { c } = router.query;
+  const { "c-c": c } = router.query;
   return (
     <div>
       <h1>/with-named/static/[c]</h1>
